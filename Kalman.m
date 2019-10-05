@@ -96,8 +96,6 @@ quat_to_matrix = @(q) [1-2*(q(3)^2+q(4)^2), 2*(q(2)*q(3)-q(4)*q(1)), 2*(q(2)*q(4
  
 cal_jaco = @calc_jacobian;
 
-N = 1200000; % Number of Time Steps
-
 % Result Data Lists
 w_list = zeros(N,3);
 q_list = zeros(N,4);
